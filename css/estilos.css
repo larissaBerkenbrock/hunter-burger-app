@@ -1,0 +1,146 @@
+body {
+    background-color: #F2F2F2;
+}
+
+.cor-menu {
+    background-color: #420508 !important;
+}
+
+.topo-fixo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.topo-fixo .valign-wrapper {
+    height: 64px;
+}
+
+.logo-marca {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 16px;
+}
+
+.titulo {
+    font-family: 'Lilita One', sans-serif;
+    font-size: 1.8rem;
+    margin-left: 12px;
+    margin-right: auto;
+}
+
+.tabs {
+    position: fixed;
+    top: 64px;
+    width: 100%;
+    z-index: 2;
+}
+
+.tabs .indicator {
+    background-color: white;
+}
+
+.section {
+    padding-top: 125px;
+}
+
+.collection .collection-item .secondary-content.preco {
+    color: black !important;
+    font-weight: bold;
+}
+
+.collection .collection-item .nome-produto {
+    font-size: 1.0rem !important;
+    font-weight: bold !important;
+    text-transform: uppercase;
+    /* caixa alta */
+}
+
+.collection .collection-item .descricao {
+    font-size: 0.9rem !important;
+    color: #757575 !important;
+    margin-left: 6px;
+}
+
+.collection .collection-item.item-produto {
+    display: flex !important;
+    align-items: center;
+    /* alinha tudo no meio, na vertical */
+    gap: 14px;
+    padding: 10px 16px;
+}
+
+.foto-produto {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    /* corta a foto sem esticar */
+    border-radius: 8px;
+    /* cantos arredondados */
+    flex-shrink: 0;
+}
+
+.info-produto {
+    flex: 1;
+    /* ocupa o espaço do meio */
+}
+
+.item-produto .preco {
+    color: black !important;
+    font-weight: bold;
+    font-size: 1.2rem;
+    white-space: nowrap;
+}
+
+.foto-produto {
+    width: 70px;
+    height: 70px;
+    object-fit: contain !important;
+    flex-shrink: 0;
+}
+
+.collection-item .controles {
+    display: flex !important;
+    align-items: center;
+    gap: 12px;
+    margin-left: 30px;
+}
+
+.collection-item .btn-qtd {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border-radius: 50%;
+    border: 1px solid #420508;
+    background: white;
+    color: #420508;
+    font-size: 1.1rem;
+    line-height: 1;
+    cursor: pointer;
+}
+
+.collection-item .qtd {
+    min-width: 24px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.collection-item .btn-comprar {
+    background: #420508;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin-left: 8px;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.collection-item .btn-comprar:hover {
+    opacity: 0.85;
+}
